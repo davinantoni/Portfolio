@@ -10,17 +10,17 @@
     border: none;
     outline: none;
     /* scroll-behavior: smooth; */
+    
 }
 
 :root{
-    --nav-bg-color: rgba(255, 255, 255, .1);
-    /* --bg-color: #1f242d; */
-    --bg-color: #171f2b;
-    --second-bg-color: #1f2733;
-    --third-bg-color: #2d3542;
-    --white-color: #fff;
-    --main-color: #0ef;
-    --tab-list-color: #7c8594;
+    --nav-bg-color: rgba(10, 10, 10, .8); /* Navigasi transparan gelap */
+    --bg-color: #121212; /* Warna latar belakang gelap pekat */
+    --second-bg-color: #1d1d1d; /* Abu-abu sangat gelap */
+    --third-bg-color: #232323; /* Abu-abu gelap */
+    --white-color: #ffffff; /* Tetap putih untuk kontras */
+    --main-color: #bb86fc; /* Ungu terang sebagai warna aksen */
+    --tab-list-color: #e0e0e0; /* Abu-abu terang untuk teks */
 }
 
 ::selection{
@@ -47,7 +47,7 @@ html{
 
 body{
     color: var(--white-color);
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 p{
